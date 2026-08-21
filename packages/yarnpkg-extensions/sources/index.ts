@@ -1074,4 +1074,12 @@ export const packageExtensions: Array<[string, PackageExtensionData]> = [
       typescript: optionalPeerDep,
     },
   }],
+  [`next-themes@>=0.2.1 <=0.4.6`, {
+    peerDependencies: {
+      [`@types/react`]: `*`,
+    },
+    peerDependenciesMeta: {
+      [`@types/react`]: optionalPeerDep,
+    },
+  }],
 ];
