@@ -1074,6 +1074,8 @@ export const packageExtensions: Array<[string, PackageExtensionData]> = [
       typescript: optionalPeerDep,
     },
   }],
+  // https://github.com/pacocoursey/next-themes/pull/398
+  // https://github.com/pacocoursey/next-themes/pull/398
   [`next-themes@>=0.2.1 <=0.4.6`, {
     peerDependencies: {
       [`@types/react`]: `*`,
